@@ -125,19 +125,19 @@ footer_text_color                         : "#666666"
 ####################################################
 
 # Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
+# sass:
+#   style: :compressed # You might prefer to minify using :compressed
 
 # Exclude these files from your production _site
-exclude:
-  - LICENSE
-  - README.md
-  - CNAME
+# exclude:
+#   - LICENSE
+#   - README.md
+#   - CNAME
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+# collections:
+#   pages:
+#     output: true
+#     permalink: /:path/
 
 # Markdown rendering
-markdown: kramdown
+# markdown: kramdown
